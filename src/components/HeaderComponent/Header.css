@@ -1,0 +1,52 @@
+.bg-gray {
+    background-color: #f0f2f5;
+}
+
+.fs-0 {
+    font-size: 4rem;
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}
+
+.fs-info {
+    font-size: 10px;
+}
+
+/* nav button */
+.icon-with-border {
+    border: 2px solid #000;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.nav__btn button:hover {
+    background: #f0f2f5 !important;
+}
+
+.nav__btn button:hover i {
+    color: #0d6efd !important;
+    border-color: #0d6efd;
+}
+
+.nav__btn-active i {
+    color: #0d6efd !important;
+}
+
+.nav__btn-active {
+    position: relative;
+}
+
+.nav__btn-active:before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    border-bottom: 4px solid #0d6efd !important;
+}
+
+/* dropdown */
+.dropdown-item:active {
+    background-color: #d5d5d5 !important;
+}
