@@ -1,0 +1,13 @@
+/* stories */
+.story:hover {
+    opacity: 0.8;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* scrollbar */
+.scrollbar:hover {
+    overflow: auto !important;
+}
