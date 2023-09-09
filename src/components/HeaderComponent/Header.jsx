@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Header.css";
 
 export default function Header() {
-        const [checked, setChecked] = useState(true);
+    const [checked, setChecked] = useState(true);
 
     return (
         <>
@@ -637,7 +637,8 @@ export default function Header() {
                                                                 className="form-check-input"
                                                                 type="checkbox"
                                                                 id="flexSwitchCheckChecked"
-                                                               defaultChecked={checked} onChange={() => setChecked(state => !state)}
+                                                                defaultChecked={checked}
+                                                                onChange={() => setChecked((state) => !state)}
                                                             />
                                                             <label
                                                                 className="form-check-label"
@@ -660,7 +661,8 @@ export default function Header() {
                                                                 className="form-check-input"
                                                                 type="checkbox"
                                                                 id="flexSwitchCheckChecked"
-                                                               defaultChecked={checked} onChange={() => setChecked(state => !state)}
+                                                                defaultChecked={checked}
+                                                                onChange={() => setChecked((state) => !state)}
                                                             />
                                                             <label
                                                                 className="form-check-label"
@@ -683,7 +685,8 @@ export default function Header() {
                                                                 className="form-check-input"
                                                                 type="checkbox"
                                                                 id="flexSwitchCheckChecked"
-                                                               defaultChecked={checked} onChange={() => setChecked(state => !state)}
+                                                                defaultChecked={checked}
+                                                                onChange={() => setChecked((state) => !state)}
                                                             />
                                                             <label
                                                                 className="form-check-label"
