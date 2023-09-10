@@ -1129,7 +1129,7 @@ export default function Header() {
                             {/* secondary menu dd */}
                             <ul className="dropdown-menu border-0 shadow p-3" aria-labelledby="secondMenu">
                                 {/* avatar */}
-                                <Link to="./profile.html" className="text-decoration-none">
+                                <Link to="/profile" className="text-decoration-none">
                                     <li className="dropdown-item p-1 rounded d-flex" type="button">
                                         <img
                                             src="https://source.unsplash.com/collection/happy-people"

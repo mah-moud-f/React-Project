@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import Feed from "./components/FeedComponent/Feed";
 import Layout from "./components/Layout/Layout";
+import Profile from "./components/ProfileComponent/Profile";
 
 function App() {
     let routers = createBrowserRouter([
@@ -13,13 +14,19 @@ function App() {
                     path: "feed",
                     element: <Feed />,
                 },
+                {
+                    path: "profile",
+                    element: <Profile />,
+                },
             ],
         },
     ]);
 
     return (
         <>
-            <RouterProvider router={routers} />
+            <div id="body">
+                <RouterProvider router={routers} />
+            </div>
         </>
     );
 }

@@ -26,10 +26,7 @@ export default function Feed() {
                                 {/* top */}
                                 {/* avatar */}
                                 <li className="dropdown-item p-1 rounded">
-                                    <Link
-                                        to="./profile.html"
-                                        className="d-flex align-items-center text-decoration-none text-dark"
-                                    >
+                                    <Link to="/profile" className="d-flex align-items-center text-decoration-none text-dark">
                                         <div className="p-2">
                                             <img
                                                 src="https://source.unsplash.com/collection/happy-people"
