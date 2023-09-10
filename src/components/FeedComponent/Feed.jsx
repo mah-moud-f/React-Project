@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import "./Feed.css";
+import Header from "../HeaderComponent/Header";
 
 export default function Feed() {
     const divRef = useRef(null);
@@ -11,6 +12,7 @@ export default function Feed() {
 
     return (
         <>
+            <Header />
             <div className="container-fluid">
                 <div className="row justify-content-evenly">
                     {/* ================= Sidebar ================= */}
@@ -36,7 +38,7 @@ export default function Feed() {
                                             />
                                         </div>
                                         <div>
-                                            <p className="m-0">Group4</p>
+                                            <p className="m-0">Team 4</p>
                                         </div>
                                     </a>
                                 </li>
@@ -375,7 +377,7 @@ export default function Feed() {
                                     <input
                                         type="text"
                                         className="form-control rounded-pill border-0 bg-gray"
-                                        placeholder="What's on your mind, Group4?"
+                                        placeholder="What's on your mind, Team 4?"
                                     />
                                 </div>
                                 <hr />
@@ -583,7 +585,7 @@ export default function Feed() {
                                                 href="./profile.html"
                                                 className="m-0 fw-bold text-decoration-none text-black d-block"
                                             >
-                                                Group4
+                                                Team 4
                                             </a>
                                             <span className="text-muted fs-7">July 17 at 1:23 pm</span>
                                         </div>
@@ -672,7 +674,7 @@ export default function Feed() {
                                                     {/* comment text */}
                                                     <div className="p-3 rounded comment__input w-100">
                                                         <a href="./profile.html" className="text-decoration-none text-black">
-                                                            <p className="fw-bold m-0 pointer">Group4</p>
+                                                            <p className="fw-bold m-0 pointer">Team 4</p>
                                                         </a>
                                                         <p className="m-0 fs-7 bg-gray p-2 rounded">
                                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

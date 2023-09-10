@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     const [checked, setChecked] = useState(true);
@@ -12,9 +13,10 @@ export default function Header() {
                         {/* Logo + Search */}
                         <div className="col-xl-3 col-4 d-flex align-items-center">
                             {/* logo */}
-                            <a href="./feed.html">
+                            <Link to="feed">
                                 <i className="fab fa-facebook text-primary" style={{ fontSize: "3rem" }}></i>
-                            </a>
+                            </Link>
+
                             {/* search bar */}
                             <div className="input-group ms-2" type="button">
                                 {/* mobile */}
@@ -1136,7 +1138,7 @@ export default function Header() {
                                             style={{ width: "45px", height: "45px", objectFit: "cover" }}
                                         />
                                         <div>
-                                            <p className="m-0">Group4</p>
+                                            <p className="m-0">Team 4</p>
                                             <p className="m-0 text-muted">See your profile</p>
                                         </div>
                                     </li>
