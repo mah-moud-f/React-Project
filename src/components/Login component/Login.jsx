@@ -9,10 +9,10 @@ export default function Login() {
 
 // const navigate = useNavigate();
   
-    const handeleNavegate =()=>{
-        navigate('/signup');
+    // const handeleNavegate =()=>{
+    //     navigate('/signup');
        
-    }
+    // }
     const [user, setUser] = useState({
         password: "",
         email: ""
