@@ -13,7 +13,7 @@ export default function Header() {
                         {/* Logo + Search */}
                         <div className="col-xl-3 col-4 d-flex align-items-center">
                             {/* logo */}
-                            <Link to="feed">
+                            <Link to="/feed">
                                 <i className="fab fa-facebook text-primary" style={{ fontSize: "3rem" }}></i>
                             </Link>
 
@@ -215,8 +215,8 @@ export default function Header() {
                                     <h4 className="m-2">Social</h4>
                                     {/* s1 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -232,12 +232,12 @@ export default function Header() {
                                                 <span className="fs-7 text-muted"></span>
                                                 Lorem, ipsum dolor sit amet consectetur.
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* s2 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="./friends.html"
+                                        <Link
+                                            to="./friends.html"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -255,12 +255,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* s3 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -278,12 +278,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* s4 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -301,12 +301,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* s5 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -324,12 +324,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* s6 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -347,15 +347,15 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <hr />
                                     {/* entertainment items */}
                                     <h4 className="m-2">Entertainment</h4>
                                     {/* e1 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -373,12 +373,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* e2 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -396,12 +396,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* e3 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="./video.html"
+                                        <Link
+                                            to="./video.html"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -419,12 +419,12 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* e4 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            to="#"
                                             className="text-decoration-none text-dark d-flex align-items-center justify-content-between"
                                         >
                                             <div className="p-2">
@@ -442,7 +442,7 @@ export default function Header() {
                                                     Lorem, ipsum dolor sit amet consectetur.{" "}
                                                 </span>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </div>
                                 <hr />
@@ -454,7 +454,7 @@ export default function Header() {
                                     </li>
                                     {/* c-1 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -464,11 +464,11 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Post</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-2 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -478,12 +478,12 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Story</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-3 */}
                                     <li className="my-2 p-1">
-                                        <a
-                                            href="./video.html"
+                                        <Link
+                                            to="./video.html"
                                             className="text-decoration-none text-dark d-flex align-items-center"
                                         >
                                             <div
@@ -495,12 +495,12 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Video</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <hr />
                                     {/* c-4 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -510,11 +510,11 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Page</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-5 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -524,11 +524,11 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Add</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-6 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -538,11 +538,11 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Group</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-7*/}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -552,11 +552,11 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Event</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-8 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -566,11 +566,11 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Marketplace Listing</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                     {/* c-9 */}
                                     <li className="my-2 p-1">
-                                        <a href="#" className="text-decoration-none text-dark d-flex align-items-center">
+                                        <Link to="#" className="text-decoration-none text-dark d-flex align-items-center">
                                             <div
                                                 className="rounded-circle bg-gray p-1 d-flex align-items-center justify-content-center me-3"
                                                 style={{ width: "38px", height: "38px" }}
@@ -580,7 +580,7 @@ export default function Header() {
                                             <div>
                                                 <p className="m-0">Job</p>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </div>
                             </ul>
@@ -916,9 +916,9 @@ export default function Header() {
                                     </div>
                                 </li>
                                 <hr className="m-0" />
-                                <a href="#" className="text-decoration-none">
+                                <Link to="#" className="text-decoration-none">
                                     <p className="fw-bold text-center pt-3 m-0">See All in Messenger</p>
-                                </a>
+                                </Link>
                             </ul>
                             {/* notifications */}
                             <div
@@ -972,14 +972,14 @@ export default function Header() {
                                 {/* new section */}
                                 <div className="d-flex justify-content-between mx-2">
                                     <h5>New</h5>
-                                    <a href="#" className="text-decoration-none">
+                                    <Link to="#" className="text-decoration-none">
                                         See All
-                                    </a>
+                                    </Link>
                                 </div>
                                 {/* n1 */}
                                 <li className="my-2 p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-evenly text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -1000,12 +1000,12 @@ export default function Header() {
                                             </div>
                                         </div>
                                         <i className="fas fa-circle fs-7 text-primary"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* n2 */}
                                 <li className="my-2 p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-evenly text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -1026,12 +1026,12 @@ export default function Header() {
                                             </div>
                                         </div>
                                         <i className="fas fa-circle fs-7 text-primary"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* n3 */}
                                 <li className="my-2 p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-evenly text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -1052,12 +1052,12 @@ export default function Header() {
                                             </div>
                                         </div>
                                         <i className="fas fa-circle fs-7 text-primary"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* n4 */}
                                 <li className="my-2 p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-evenly text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -1078,12 +1078,12 @@ export default function Header() {
                                             </div>
                                         </div>
                                         <i className="fas fa-circle fs-7 text-primary"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* n5 */}
                                 <li className="my-2 p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-evenly text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -1104,7 +1104,7 @@ export default function Header() {
                                             </div>
                                         </div>
                                         <i className="fas fa-circle fs-7 text-primary"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                             {/* secondary menu */}
@@ -1129,7 +1129,7 @@ export default function Header() {
                             {/* secondary menu dd */}
                             <ul className="dropdown-menu border-0 shadow p-3" aria-labelledby="secondMenu">
                                 {/* avatar */}
-                                <a href="./profile.html" className="text-decoration-none">
+                                <Link to="./profile.html" className="text-decoration-none">
                                     <li className="dropdown-item p-1 rounded d-flex" type="button">
                                         <img
                                             src="https://source.unsplash.com/collection/happy-people"
@@ -1142,7 +1142,7 @@ export default function Header() {
                                             <p className="m-0 text-muted">See your profile</p>
                                         </div>
                                     </li>
-                                </a>
+                                </Link>
                                 <hr />
                                 {/* feedback */}
                                 <li className="dropdown-item p-1 rounded d-flex align-items-center" type="button">
@@ -1168,7 +1168,7 @@ export default function Header() {
                                             {/* nested menu */}
                                             <ul className="dropdown-menu">
                                                 <li>
-                                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                                    <Link className="dropdown-item d-flex align-items-center" to="#">
                                                         <div
                                                             className="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center me-2"
                                                             style={{ width: "38px", height: "38px" }}
@@ -1176,10 +1176,10 @@ export default function Header() {
                                                             <i className="fas fa-cog"></i>
                                                         </div>
                                                         <p className="m-0">Settings</p>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                                    <Link className="dropdown-item d-flex align-items-center" to="#">
                                                         <div
                                                             className="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center me-2"
                                                             style={{ width: "38px", height: "38px" }}
@@ -1187,10 +1187,10 @@ export default function Header() {
                                                             <i className="fas fa-lock"></i>
                                                         </div>
                                                         <p className="m-0">Privacy Checkup</p>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                                    <Link className="dropdown-item d-flex align-items-center" to="#">
                                                         <div
                                                             className="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center me-2"
                                                             style={{ width: "38px", height: "38px" }}
@@ -1198,10 +1198,10 @@ export default function Header() {
                                                             <i className="fas fa-unlock-alt"></i>
                                                         </div>
                                                         <p className="m-0">Privacy Shortcuts</p>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                                    <Link className="dropdown-item d-flex align-items-center" to="#">
                                                         <div
                                                             className="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center me-2"
                                                             style={{ width: "38px", height: "38px" }}
@@ -1209,10 +1209,10 @@ export default function Header() {
                                                             <i className="fas fa-list"></i>
                                                         </div>
                                                         <p className="m-0">Activity Log</p>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                                    <Link className="dropdown-item d-flex align-items-center" to="#">
                                                         <div
                                                             className="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center me-2"
                                                             style={{ width: "38px", height: "38px" }}
@@ -1220,10 +1220,10 @@ export default function Header() {
                                                             <i className="fas fa-newspaper"></i>
                                                         </div>
                                                         <p className="m-0">News Feed Preferences</p>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a className="dropdown-item d-flex align-items-center" href="#">
+                                                    <Link className="dropdown-item d-flex align-items-center" to="#">
                                                         <div
                                                             className="rounded-circle p-1 bg-gray d-flex align-items-center justify-content-center me-2"
                                                             style={{ width: "38px", height: "38px" }}
@@ -1231,7 +1231,7 @@ export default function Header() {
                                                             <i className="fas fa-globe"></i>
                                                         </div>
                                                         <p className="m-0">Language</p>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -1269,12 +1269,12 @@ export default function Header() {
                                 <li className="dropdown-item p-1 my-3 rounded" type="button">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <a href="./index.html" className="d-flex text-decoration-none text-dark">
+                                            <Link to="./index.html" className="d-flex text-decoration-none text-dark">
                                                 <i className="fas fa-cog bg-gray p-2 rounded-circle"></i>
                                                 <div className="ms-3 d-flex justify-content-between align-items-center w-100">
                                                     <p className="m-0">Log Out</p>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>

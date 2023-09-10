@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import "./Feed.css";
 import Header from "../HeaderComponent/Header";
+import { Link } from "react-router-dom";
 
 export default function Feed() {
     const divRef = useRef(null);
@@ -25,8 +26,8 @@ export default function Feed() {
                                 {/* top */}
                                 {/* avatar */}
                                 <li className="dropdown-item p-1 rounded">
-                                    <a
-                                        href="./profile.html"
+                                    <Link
+                                        to="./profile.html"
                                         className="d-flex align-items-center text-decoration-none text-dark"
                                     >
                                         <div className="p-2">
@@ -40,12 +41,12 @@ export default function Feed() {
                                         <div>
                                             <p className="m-0">Team 4</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* top 1 */}
                                 <li className="dropdown-item p-1 rounded">
-                                    <a
-                                        href="./friends.html"
+                                    <Link
+                                        to="./friends.html"
                                         className="d-flex align-items-center text-decoration-none text-dark"
                                     >
                                         <div className="p-2">
@@ -59,11 +60,11 @@ export default function Feed() {
                                         <div>
                                             <p className="m-0">Friends</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* top 2 */}
                                 <li className="dropdown-item p-1 rounded">
-                                    <a href="#" className="d-flex align-items-center text-decoration-none text-dark">
+                                    <Link to="#" className="d-flex align-items-center text-decoration-none text-dark">
                                         <div className="p-2">
                                             <img
                                                 src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/PyK8C03Gggr.png"
@@ -75,17 +76,17 @@ export default function Feed() {
                                         <div>
                                             <p className="m-0">Groups</p>
                                             <i
-                                                className="fas fa-circle text-primary"
-                                                style={{ fontSize: "0.5rem !important" }}
+                                                className="fas fa-circle text-primary me-1"
+                                                style={{ fontSize: "0.5rem", important: "true" }}
                                             ></i>
                                             <span className="fs-7 text-primary">3 new</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* top 3 */}
                                 <li className="dropdown-item p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-between text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -101,12 +102,12 @@ export default function Feed() {
                                                 <p className="m-0">Feeds</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* top 4 */}
                                 <li className="dropdown-item p-1">
-                                    <a
-                                        href="#"
+                                    <Link
+                                        to="#"
                                         className="d-flex align-items-center justify-content-between text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -122,12 +123,12 @@ export default function Feed() {
                                                 <p className="m-0">Marketplace</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* top 5 */}
                                 <li className="dropdown-item p-1">
-                                    <a
-                                        href="./video.html"
+                                    <Link
+                                        to="./video.html"
                                         className="d-flex align-items-center justify-content-between text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">
@@ -142,13 +143,13 @@ export default function Feed() {
                                             <div>
                                                 <p className="m-0">Video</p>
                                                 <i
-                                                    className="fas fa-circle text-primary"
-                                                    style={{ fontSize: "0.5rem !important" }}
+                                                    className="fas fa-circle text-primary me-1"
+                                                    style={{ fontSize: "0.5rem", important: true }}
                                                 ></i>
                                                 <span className="fs-7 text-primary">9+ new videos</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* see more */}
                                 <li className="p-1" type="button">
@@ -165,7 +166,7 @@ export default function Feed() {
                                                 <div className="p-2">
                                                     <i
                                                         className="fas fa-chevron-down rounded-circle p-2"
-                                                        style={{ backgroundColor: "#d5d5d5 !important" }}
+                                                        style={{ backgroundColor: "#d5d5d5", important: true }}
                                                     ></i>
                                                 </div>
                                                 <div>
@@ -191,7 +192,7 @@ export default function Feed() {
                                 </div>
                                 {/* short-1 */}
                                 <li className="dropdown-item p-1">
-                                    <a href="#" className="d-flex align-items-center text-decoration-none text-dark">
+                                    <Link to="#" className="d-flex align-items-center text-decoration-none text-dark">
                                         <div className="p-2">
                                             <img
                                                 src="https://source.unsplash.com/random/1"
@@ -203,11 +204,11 @@ export default function Feed() {
                                         <div>
                                             <p className="m-0">Lorem Ipsum</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* short-2 */}
                                 <li className="dropdown-item p-1">
-                                    <a className="d-flex align-items-center text-decoration-none text-dark">
+                                    <Link className="d-flex align-items-center text-decoration-none text-dark">
                                         <div className="p-2">
                                             <img
                                                 src="https://source.unsplash.com/random/2"
@@ -219,11 +220,11 @@ export default function Feed() {
                                         <div>
                                             <p className="m-0">Lorem Ipsum</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* short-3 */}
                                 <li className="dropdown-item p-1">
-                                    <a className="d-flex align-items-center text-decoration-none text-dark">
+                                    <Link className="d-flex align-items-center text-decoration-none text-dark">
                                         <div className="p-2">
                                             <img
                                                 src="https://source.unsplash.com/random/3"
@@ -235,7 +236,7 @@ export default function Feed() {
                                         <div>
                                             <p className="m-0">Lorem Ipsum</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </li>
                                 {/* see more */}
                                 <li className="p-1" type="button">
@@ -252,7 +253,7 @@ export default function Feed() {
                                                 <div className="p-2">
                                                     <i
                                                         className="fas fa-chevron-down rounded-circle p-2"
-                                                        style={{ backgroundColor: "#d5d5d5 !important" }}
+                                                        style={{ backgroundColor: "#d5d5d5", important: true }}
                                                     ></i>
                                                 </div>
                                                 <div>
@@ -365,14 +366,14 @@ export default function Feed() {
                                 {/* avatar */}
                                 <div className="d-flex" type="button">
                                     <div className="p-1">
-                                        <a href="./profile.html">
+                                        <Link to="./profile.html">
                                             <img
                                                 src="https://source.unsplash.com/collection/happy-people"
                                                 alt="avatar"
                                                 className="rounded-circle me-2"
                                                 style={{ width: "38px", height: "38px", objectFit: "cover" }}
                                             />
-                                        </a>
+                                        </Link>
                                     </div>
                                     <input
                                         type="text"
@@ -572,21 +573,21 @@ export default function Feed() {
                                 <div className="d-flex justify-content-between">
                                     {/* avatar */}
                                     <div className="d-flex">
-                                        <a href="./profile.html">
+                                        <Link to="./profile.html">
                                             <img
                                                 src="https://source.unsplash.com/collection/happy-people"
                                                 alt="avatar"
                                                 className="rounded-circle me-2"
                                                 style={{ width: "38px", height: "38px", objectFit: "cover" }}
                                             />
-                                        </a>
+                                        </Link>
                                         <div>
-                                            <a
-                                                href="./profile.html"
+                                            <Link
+                                                to="./profile.html"
                                                 className="m-0 fw-bold text-decoration-none text-black d-block"
                                             >
                                                 Team 4
-                                            </a>
+                                            </Link>
                                             <span className="text-muted fs-7">July 17 at 1:23 pm</span>
                                         </div>
                                     </div>
@@ -601,20 +602,20 @@ export default function Feed() {
                                     {/* edit menu */}
                                     <ul className="dropdown-menu border-0 shadow" aria-labelledby="post1Menu">
                                         <li className="d-flex align-items-center">
-                                            <a
+                                            <Link
                                                 className="dropdown-item d-flex justify-content-around align-items-center fs-7"
-                                                href="#"
+                                                to="#"
                                             >
                                                 Edit Post
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="d-flex align-items-center">
-                                            <a
+                                            <Link
                                                 className="dropdown-item d-flex justify-content-around align-items-center fs-7"
-                                                href="#"
+                                                to="#"
                                             >
                                                 Delete Post
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -663,19 +664,22 @@ export default function Feed() {
                                                 {/* comment 1 */}
                                                 <div className="d-flex align-items-center my-1">
                                                     {/* avatar */}
-                                                    <a href="./profile.html">
+                                                    <Link to="./profile.html">
                                                         <img
                                                             src="https://source.unsplash.com/collection/happy-people"
                                                             alt="avatar"
                                                             className="rounded-circle me-2"
                                                             style={{ width: "38px", height: "38px", objectFit: "cover" }}
                                                         />
-                                                    </a>
+                                                    </Link>
                                                     {/* comment text */}
                                                     <div className="p-3 rounded comment__input w-100">
-                                                        <a href="./profile.html" className="text-decoration-none text-black">
+                                                        <Link
+                                                            to="./profile.html"
+                                                            className="text-decoration-none text-black"
+                                                        >
                                                             <p className="fw-bold m-0 pointer">Team 4</p>
-                                                        </a>
+                                                        </Link>
                                                         <p className="m-0 fs-7 bg-gray p-2 rounded">
                                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                         </p>
@@ -702,14 +706,14 @@ export default function Feed() {
                                                 <form className="d-flex my-1">
                                                     {/* avatar */}
                                                     <div>
-                                                        <a href="./profile.html">
+                                                        <Link to="./profile.html">
                                                             <img
                                                                 src="https://source.unsplash.com/collection/happy-people"
                                                                 alt="avatar"
                                                                 className="rounded-circle me-2"
                                                                 style={{ width: "38px", height: "38px", objectFit: "cover" }}
                                                             />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                     {/* input */}
                                                     <input
@@ -745,7 +749,7 @@ export default function Feed() {
                                 {/* s 1 */}
                                 <li className="dropdown-item my-2 d-flex justify-content-between">
                                     {/* img */}
-                                    <a href="#" className="d-flex align-items-center text-decoration-none link-dark">
+                                    <Link to="#" className="d-flex align-items-center text-decoration-none link-dark">
                                         <img
                                             src="https://source.unsplash.com/random/1"
                                             alt="ads"
@@ -756,7 +760,7 @@ export default function Feed() {
                                             <p className="m-0">Lorem ipsum</p>
                                             <span className="text-muted fs-7">loremipsum.com</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                     {/* icon */}
                                     <div
                                         className="rounded-circle p-1 bg-white d-flex align-items-center justify-content-center mx-2 sponsor-icon nav-item"
@@ -768,8 +772,8 @@ export default function Feed() {
                                         <ul className="dropdown-menu">
                                             {/* item 1 */}
                                             <li className="dropdown-item">
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to="#"
                                                     className="d-flex align-items-center text-decoration-none text-dark"
                                                 >
                                                     <i className="far fa-window-close"></i>
@@ -777,12 +781,12 @@ export default function Feed() {
                                                         <p className="m-0">Hide Ad</p>
                                                         <span className="text-muted fs-7"> Never see this ad again. </span>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </li>
                                             {/* item 2 */}
                                             <li className="dropdown-item">
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to="#"
                                                     className="d-flex align-items-center text-decoration-none text-dark"
                                                 >
                                                     <i className="fas fa-exclamation-triangle"></i>
@@ -793,19 +797,19 @@ export default function Feed() {
                                                             Tell us a problem with this add.{" "}
                                                         </span>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </li>
                                             {/* item 3 */}
                                             <li className="dropdown-item">
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to="#"
                                                     className="d-flex align-items-center text-decoration-none text-dark"
                                                 >
                                                     <i className="fas fa-info-circle"></i>
                                                     <div className="ms-3">
                                                         <p className="m-0">Why am I seeing this ad?</p>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -813,7 +817,7 @@ export default function Feed() {
                                 {/* s 2 */}
                                 <li className="dropdown-item my-2 d-flex justify-content-between">
                                     {/* img */}
-                                    <a href="#" className="d-flex align-items-center text-decoration-none link-dark">
+                                    <Link to="#" className="d-flex align-items-center text-decoration-none link-dark">
                                         <img
                                             src="https://source.unsplash.com/random/2"
                                             alt="ads"
@@ -824,7 +828,7 @@ export default function Feed() {
                                             <p className="m-0">Lorem ipsum</p>
                                             <span className="text-muted fs-7">loremipsum.com</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                     {/* icon */}
                                     <div
                                         className="rounded-circle p-1 bg-white d-flex align-items-center justify-content-center mx-2 sponsor-icon nav-item"
@@ -836,8 +840,8 @@ export default function Feed() {
                                         <ul className="dropdown-menu">
                                             {/* item 1 */}
                                             <li className="dropdown-item">
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to="#"
                                                     className="d-flex align-items-center text-decoration-none text-dark"
                                                 >
                                                     <i className="far fa-window-close"></i>
@@ -845,12 +849,12 @@ export default function Feed() {
                                                         <p className="m-0">Hide Ad</p>
                                                         <span className="text-muted fs-7"> Never see this ad again. </span>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </li>
                                             {/* item 2 */}
                                             <li className="dropdown-item">
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to="#"
                                                     className="d-flex align-items-center text-decoration-none text-dark"
                                                 >
                                                     <i className="fas fa-exclamation-triangle"></i>
@@ -861,19 +865,19 @@ export default function Feed() {
                                                             Tell us a problem with this add.{" "}
                                                         </span>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </li>
                                             {/* item 3 */}
                                             <li className="dropdown-item">
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to="#"
                                                     className="d-flex align-items-center text-decoration-none text-dark"
                                                 >
                                                     <i className="fas fa-info-circle"></i>
                                                     <div className="ms-3">
                                                         <p className="m-0">Why am I seeing this ad?</p>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
