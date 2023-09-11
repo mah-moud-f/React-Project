@@ -28,7 +28,7 @@ export default function Signin() {
     const handleValidation = (evt) => {
         var emailReg = /^[A-Za-z0-9]{4,}@(gmail|yaho)(.com)$/;
         var upperReg =/[A-Z]/
-        // console.log(evt.target)
+        
         if (evt.target.name == "name") {
             setUser({ ...user, name: evt.target.value })
             setErrors({ ...errors, nameError: (evt.target.value.length == 0) ? "Name is required" : "" })

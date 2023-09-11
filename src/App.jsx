@@ -18,11 +18,11 @@ function App() {
                     element: <Feed />,
                 },
                 {
-                    path: '/login',
+                    path: 'login',
                     element: <Login/>
                 },
                 {
-                    path: '/siginup',
+                    path: 'siginin',
                     element:<Signin/>
                 }
             ],
@@ -33,7 +33,7 @@ function App() {
         <>
             
             <RouterProvider router={routers} />
-                <Login />
+        
                 
           
         </>

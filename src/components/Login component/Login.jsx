@@ -4,15 +4,10 @@
 
 import { useState } from 'react';
 import './Login.css';
-// import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 export default function Login() {
 
-// const navigate = useNavigate();
-  
-    // const handeleNavegate =()=>{
-    //     navigate('/signup');
-       
-    // }
     const [user, setUser] = useState({
         password: "",
         email: ""
@@ -81,16 +76,17 @@ export default function Login() {
             ><p>Forgotten password?</p></a>
 
              
+            <Link  to="/siginin"> 
             <div className="text-center my-4">
             <button
               type="button"
                   className="btn btn-success btn-lg"
-                  //  onClick={()=>{handeleNavegate()}}
               
             >
               Create new account
             </button>
               </div>
+              </Link>
               
 
           
