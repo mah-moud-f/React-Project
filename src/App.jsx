@@ -7,14 +7,15 @@ import Signin from "./components/SigninComponent/Signin";
 import Profile from "./components/ProfileComponent/Profile";
 import Friend from "./components/FreindRequestComponent/friend";
 import Video from "./components/VideoComponent/Video";
-
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
     let routers = createBrowserRouter([
         {
             path: "/",
-            element: <Login />,
+            element: <Layout/>,
             children: [
+               {index:true,element:<Login/>} ,
                 {
                     path: "feed",
                     element: <Feed />,
@@ -39,7 +40,14 @@ function App() {
                     path: "video",
                     element: <Video/>,
                 }
+
+              
             ],
+        },
+
+        {
+            path: "*",
+            element: <NotFound/>,
         },
     ]);
 

@@ -277,9 +277,11 @@ export default function Signin() {
                       </span>
                     </div>
                     <div className="text-center my-4">
+
                       <button className="btn btn-success px-5 fw-bold fs-3" type="button">
                         Sign Up
                       </button>
+                      
                           </div>
                           <div>
                               <a href="" className="text-primary text-center text-decoration-none "
