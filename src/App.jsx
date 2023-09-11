@@ -2,6 +2,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import Feed from "./components/FeedComponent/Feed";
 import Layout from "./components/Layout/Layout";
+import Login from "./components/Login component/Login";
+import Signin from "./components/SigninComponent/Signin";
 import Profile from "./components/ProfileComponent/Profile";
 
 function App() {
@@ -15,6 +17,14 @@ function App() {
                     element: <Feed />,
                 },
                 {
+                    path: 'login',
+                    element: <Login/>
+                },
+                {
+                    path: 'siginin',
+                    element:<Signin/>
+                }
+                {
                     path: "profile",
                     element: <Profile />,
                 },
@@ -24,6 +34,9 @@ function App() {
 
     return (
         <>
+                    
+                
+          
             <div id="body">
                 <RouterProvider router={routers} />
             </div>
