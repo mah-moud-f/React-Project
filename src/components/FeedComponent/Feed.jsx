@@ -125,7 +125,7 @@ export default function Feed() {
                                 {/* top 5 */}
                                 <li className="dropdown-item p-1">
                                     <Link
-                                        to="./video.html"
+                                        to="/video"
                                         className="d-flex align-items-center justify-content-between text-decoration-none text-dark"
                                     >
                                         <div className="d-flex align-items-center justify-content-evenly">

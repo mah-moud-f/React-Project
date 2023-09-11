@@ -6,6 +6,8 @@ import Login from "./components/Login component/Login";
 import Signin from "./components/SigninComponent/Signin";
 import Profile from "./components/ProfileComponent/Profile";
 import Friend from "./components/FreindRequestComponent/friend";
+import Video from "./components/VideoComponent/Video";
+
 
 function App() {
     let routers = createBrowserRouter([
@@ -33,6 +35,10 @@ function App() {
                     path: "friend",
                     element: <Friend />,
                 },
+                {
+                    path: "video",
+                    element: <Video/>,
+                }
             ],
         },
     ]);
