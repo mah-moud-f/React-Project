@@ -5,6 +5,7 @@ import Layout from "./components/Layout/Layout";
 import Login from "./components/Login component/Login";
 import Signin from "./components/SigninComponent/Signin";
 import Profile from "./components/ProfileComponent/Profile";
+import Friend from "./components/FreindRequestComponent/friend";
 
 function App() {
     let routers = createBrowserRouter([
@@ -27,6 +28,10 @@ function App() {
                 {
                     path: "profile",
                     element: <Profile />,
+                },
+                {
+                    path: "friend",
+                    element: <Friend />,
                 },
             ],
         },
