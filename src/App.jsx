@@ -11,20 +11,20 @@ function App() {
     let routers = createBrowserRouter([
         {
             path: "/",
-            element: <Layout />,
+            element: <Login />,
             children: [
                 {
                     path: "feed",
                     element: <Feed />,
                 },
                 {
-                    path: 'login',
-                    element: <Login/>
+                    path: "login",
+                    element: <Login />,
                 },
                 {
-                    path: 'siginin',
-                    element:<Signin/>
-                }
+                    path: "siginin",
+                    element: <Signin />,
+                },
                 {
                     path: "profile",
                     element: <Profile />,
@@ -39,9 +39,6 @@ function App() {
 
     return (
         <>
-                    
-                
-          
             <div id="body">
                 <RouterProvider router={routers} />
             </div>
