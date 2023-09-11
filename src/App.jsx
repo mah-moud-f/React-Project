@@ -6,13 +6,15 @@ import Login from "./components/Login component/Login";
 import Signin from "./components/SigninComponent/Signin";
 import Profile from "./components/ProfileComponent/Profile";
 import Friend from "./components/FreindRequestComponent/friend";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
     let routers = createBrowserRouter([
         {
             path: "/",
-            element: <Login />,
+            element: <Layout/>,
             children: [
+               {index:true,element:<Login/>} ,
                 {
                     path: "feed",
                     element: <Feed />,
@@ -33,7 +35,14 @@ function App() {
                     path: "friend",
                     element: <Friend />,
                 },
+
+              
             ],
+        },
+
+        {
+            path: "*",
+            element: <NotFound/>,
         },
     ]);
 
