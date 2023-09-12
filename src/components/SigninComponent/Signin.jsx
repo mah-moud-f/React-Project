@@ -1,5 +1,6 @@
 // import React from 'react'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Signin.css'
 export default function Signin() {
   
@@ -277,10 +278,12 @@ export default function Signin() {
                       </span>
                     </div>
                     <div className="text-center my-4">
-
-                      <button className="btn btn-success px-5 fw-bold fs-3" type="button">
+                <Link to='/login'>
+                   <button className="btn btn-success px-5 fw-bold fs-3" type="button">
                         Sign Up
                       </button>
+                </Link>
+                      
                       
                           </div>
                           <div>
