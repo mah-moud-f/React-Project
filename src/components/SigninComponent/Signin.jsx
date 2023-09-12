@@ -287,8 +287,11 @@ export default function Signin() {
                       
                           </div>
                           <div>
-                              <a href="" className="text-primary text-center text-decoration-none "
-            ><p>Already have an account?</p></a>
+                <Link to='/login'>
+                  <a href="" className="text-primary text-center text-decoration-none ">
+                    <p>Already have an account?</p></a>
+                
+                </Link>     
                           </div>
                 
           </form>
